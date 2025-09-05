@@ -2,9 +2,9 @@
   "name": "shared-square-server",
   "version": "1.0.0",
   "description": "Multiplayer shared square game backend",
-  "main": "dd.js",
+  "main": "dd1.js",
   "scripts": {
-    "start": "node dd.js"
+    "start": "node dd1.js"
   },
   "dependencies": {
     "express": "^4.18.2",
@@ -14,3 +14,4 @@
     "node": ">=18.0.0"
   }
 }
+
