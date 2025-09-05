@@ -51,7 +51,12 @@ app.get('/poll', (req, res) => {
   }, 30000); // 30 seconds
 });
 
+app.get('/', (req, res) => {
+  res.send('Server is running');
+});
+
 // 🚀 Start server
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
+
 });
